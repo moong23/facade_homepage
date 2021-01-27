@@ -1,0 +1,37 @@
+.menu {
+    position: fixed;
+    top: 48px;
+    right: 64px;
+    z-index: 1000;
+    transition: top .3s ease, right .3s ease;
+}
+
+.menu .logo {
+    position: relative;
+    vertical-align: top;
+    height: 84px;
+}
+
+.menu .top-menu {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 12px 0;
+}
+
+.menu .top-menu li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.2ch;
+    margin-right: 32px;
+    line-height: 24px;
+    pointer-events: all;
+}
+
+.menu .top-menu li a {
+    text-decoration: none;
+}
